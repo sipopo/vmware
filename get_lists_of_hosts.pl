@@ -28,6 +28,8 @@ foreach(@$clusters) {
 	foreach (@$esxi) {
 		print "$cluster_name \t" . $_->{'name'} . "\n";	
 		print hosts "$cluster_name \t" . $_->{'name'} . "\n"; 
+
+	
 	}
 
 }
